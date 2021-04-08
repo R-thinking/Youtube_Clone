@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Youtube Clone</title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/caef5e6289.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
     <!-- Header -->
@@ -36,24 +39,22 @@
                 <li>#basic html and CSS</li>
             </ul>
             <div class="title">
-                <span>A cup of latte and a brownie</span>
+                <span data-dummytext="p-x1-w32-s8-v20"></span>
+                <button class="moreBtn">
+                    <i class="fa fa-angle-down"></i>
+                </button>
             </div>
-            <button class="moreBtn">
-                <i class="fa fa-angle-down"></i>
-            </button>
-            <div class="views">
-                <span class="views">
-                    5K views 1month ago
-                </span>
-            </div>
+            <span class="views">
+                5K views 1month ago
+            </span>
         </div>
         <!-- Action Buttons -->
         <ul class="actionBtns">
-           <li><button><i class="fas fa-thumbs-up"></i><span>2.3K</span></button></li>
-           <li><button><i class="fas fa-thumbs-down"></i></button>0</li>
-           <li><button><i class="fas fa-share"></i></button>Share</li>
-           <li><button><i class="fas fa-plus"></i></button>Save</li>
-           <li><button><i class="fab fa-font-awesome-flag"></i></button>Report</li> 
+           <li><button><i class="active fas fa-thumbs-up"></i><span class="active">2.3K</span></button></li>
+           <li><button><i class="fas fa-thumbs-down"></i><span>0</span></button></li>
+           <li><button><i class="fas fa-share"></i><span>Share</span></button></li>
+           <li><button><i class="fas fa-plus"></i><span>Save</span></button></li>
+           <li><button><i class="fab fa-font-awesome-flag"></i><span>Report</span></button></li> 
         </ul>
         <!-- Channel Description-->
         <div class="channel">
