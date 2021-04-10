@@ -6,6 +6,6 @@
 
 ### Update List
 
-- [ ] To build basic structure like **youtube** using html
+- [x] To build basic structure like **youtube** using html
 - [ ] To design a web page like **youtube** using css
 - [ ] To apply **Responsive Web** to the design.

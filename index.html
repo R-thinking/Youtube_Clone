@@ -16,7 +16,7 @@
     <header>
         <div class="logo">
             <i class="fab fa-youtube"></i>
-            <span class="title">Youtube</span>
+            <span class="title">YouTube</span>
         </div>
         <div class="icons">
             <i class="fas fa-search"></i>
@@ -25,12 +25,15 @@
     </header>
     
     <!-- Video Player -->
-    <section class="player"> <video controls src="https://cdn.videvo.net/videvo_files/video/free/2020-03/small_watermarked/200223_Cafe_03_40_preview.webm">
-        Sorry, your browser doesn't support embedded videos.</video>
+    <section class="player"> 
+        <video controls>
+        <source src="https://cdn.videvo.net/videvo_files/video/free/2020-03/small_watermarked/200223_Cafe_03_40_preview.webm" type="video/webm">
+        <p>Sorry, your browser doesn't support embedded videos.</p>
+    </video>
     </section>
-       
+    
     <!-- Video Info -->
-    <section class="info">
+    <section class="videoInfo">
         <!-- Metadata -->
         <div class="metadata">
             <ul class="hashtags">
@@ -50,17 +53,17 @@
         </div>
         <!-- Action Buttons -->
         <ul class="actionBtns">
-           <li><button><i class="active fas fa-thumbs-up"></i><span class="active">2.3K</span></button></li>
-           <li><button><i class="fas fa-thumbs-down"></i><span>0</span></button></li>
-           <li><button><i class="fas fa-share"></i><span>Share</span></button></li>
-           <li><button><i class="fas fa-plus"></i><span>Save</span></button></li>
-           <li><button><i class="fab fa-font-awesome-flag"></i><span>Report</span></button></li> 
+            <li><button><i class="active fas fa-thumbs-up"></i><span class="active">2.3K</span></button></li>
+            <li><button><i class="fas fa-thumbs-down"></i><span>0</span></button></li>
+            <li><button><i class="fas fa-share"></i><span>Share</span></button></li>
+            <li><button><i class="fas fa-plus"></i><span>Save</span></button></li>
+            <li><button><i class="fab fa-font-awesome-flag"></i><span>Report</span></button></li> 
         </ul>
         <!-- Channel Description-->
         <div class="channel">
             <div class="metadata">
                 <img src="/img/profile.jpg" alt="">
-                <div class="info">
+                <div class="channelInfo">
                     <span class="name">Coffee and Brownie</span>
                     <span class="subscribers">1M subscribers</span>
                 </div>
@@ -70,36 +73,48 @@
     </section>
 
     <!-- Channel Recommendation -->
-    <section class="Recommendation">
+    <section class="recommendation">
         <span class="title">Channel Recommendation</span>
         <ul>
             <li class="item">
-                <img src="/img/Recommendation1.jpg" alt="">
+                <div class="preview-wrapper">
+                    <img src="/img/Recommendation1.jpg" alt="">
+                </div>
                 <div class="info">
                     <span class="title" data-dummytext="p-x1-w32-s8-v20"></span>
-                    <span class="name">Coffe and Brownie</span>
-                    <span class="views">3K views</span>
+                    <div class="metadata">
+                        <span class="name">Coffe and Brownie</span>
+                        <span class="views">3K views</span>
+                    </div>
                 </div>
                 <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
             </li>
             <li class="item">
+                <div class="preview-wrapper">
                 <img src="/img/Recommendation2.jpg" alt="">
+                </div>
                 <div class="info">
                     <span class="title" data-dummytext="p-x1-w35-s7-v20"></span>
-                    <span class="name">Coffe and Brownie</span>
-                    <span class="views">3K views</span>
+                    <div class="metadata">
+                        <span class="name">Coffe and Brownie</span>
+                        <span class="views">3K views</span>
+                    </div>
                 </div>
                 <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
             </li>
             <li class="item">
-                <img src="/img/Recommendation3.jpg" alt="">
+                <div class="preview-wrapper">
+                    <img src="/img/Recommendation3.jpg" alt="">
+                </div>
                 <div class="info">
                     <span class="title" data-dummytext="p-x1-w27-s9-v20"></span>
-                    <span class="name">Coffe and Brownie</span>
-                    <span class="views">3K views</span>
+                    <div class="metadata">
+                        <span class="name">Coffe and Brownie</span>
+                        <span class="views">3K views</span>
+                    </div>
                 </div>
-                <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
-            </li>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+        </li>
         </ul>
     </section>
     <!-- Lorem Ipsum Generater -->
