@@ -236,6 +236,12 @@ header .icons .fa-search {
   margin-right: var(--margin-normal);
 }
 
+.channel .subscribe.subscribed {
+  background-color: #eeeeee;
+  color: #757575;
+  width: 120px;
+}
+
 /*Channel Recommendation */
 .recommendation {
   padding: var(--padding-large);
