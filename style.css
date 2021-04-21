@@ -183,7 +183,11 @@ header .icons .fa-search {
   font-size: var(--icon-size);
 }
 
-.videoInfo .actionBtns button .active {
+.videoInfo .actionBtns button.active {
+  color: var(--blue-color);
+}
+
+.videoInfo .actionBtns button.hover:hover {
   color: var(--blue-color);
 }
 

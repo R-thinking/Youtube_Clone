@@ -3,6 +3,7 @@
 const moreBtn = document.querySelector('.videoInfo .metadata .title .moreBtn');
 const title = document.querySelector('.videoInfo .metadata .title span');
 const subscribe = document.querySelector('.channel .subscribe');
+const actionBtn = document.querySelectorAll('.videoInfo .actionBtns .toggle');
 
 moreBtn.addEventListener('click',() =>{
     moreBtn.classList.toggle('clicked');
@@ -20,3 +21,9 @@ subscribe.addEventListener('click',() =>{
     }
 });
 
+    actionBtn
+    .forEach((Btn) =>{
+        Btn.addEventListener('click',() =>{
+            Btn.classList.toggle('active');
+        });
+    });
