@@ -24,10 +24,11 @@
 
 |      Function       | Inactive | Active |
 | :-----------------: | :------: | :----: |
-|  Responsive Design  |          |        |
-| MoreButton on Title |          |        |
-|  Subscribe button   |          |        |
-|    Action button    |          |        |
+|  Responsive Design  | <img src="/img/responsive1.png" width="200" height="150"/>| <img src="/img/responsive2.png" width="100" height="150"/> |
+| MoreButton on Title | <img src="/img/moreBtn1.png" width="100" height="50"/> | <img src="/img/moreBtn2.png" width="100" height="50"/> |
+|  Subscribe button   | <img src="/img/Subscribe1.png" width="100" height="50"/> | <img src="/img/Subscribe2.png" width="100" height="50"/> |
+|    Action button_1  | <img src="/img/ActionBtn1.png" width="100" height="50"/> | <img src="/img/ActionBtn2.png" width="100" height="50"/> |
+|    Action button_2  | <img src="/img/ActionBtn3.png" width="100" height="50"/> | <img src="/img/ActionBtn4.gif" width="100" height="50"/> |
 
   <br/>
 
