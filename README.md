@@ -1,4 +1,4 @@
-# Project No.1_Youtube Clone
+# Youtube Clone
 
 ## Index
 
@@ -22,12 +22,43 @@
 
 ## Primary Function
 
-|      Function       | Inactive | Active |
-| :-----------------: | :------: | :----: |
-|  Responsive Design  |          |        |
-| MoreButton on Title |          |        |
-|  Subscribe button   |          |        |
-|    Action button    |          |        |
+<table cellspacing="0">
+  <tr align="center">
+    <td colspan="2"> <b>Responsive Design</b> </td>
+  </tr>
+  <td align="center"> <img src="/img/responsive1.png" width="768" height="550"/> <span>  768px or bigger </span> </td>
+  <td align="center"> <img src="/img/responsive2.png" width="350" height="550"/> <span> smaller than 768px </span> </td>
+</table>
+
+<table cellspacing"0">
+  <thead align="center">
+    <td><b>Function</b></td>
+    <td><b>Inactive</b></td>
+    <td><b>Active</b></td>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>MoreButton on Title</td>
+      <td><img src="/img/moreBtn1.png" width="500" height="100"/></td>
+      <td><img src="/img/moreBtn2.png" width="500" height="100"/></td>
+    </tr>
+    <tr align="center">
+      <td>Subscribe button</td>
+      <td><img src="/img/Subscribe1.png" width="500" height="100"/></td>
+      <td><img src="/img/Subscribe2.png" width="500" height="100"/></td>
+    </tr>
+    <tr align="center">
+      <td>Action button_1</td>
+      <td><img src="/img/ActionBtn1.png" width="500" height="100"/></td>
+      <td><img src="/img/ActionBtn2.png" width="500" height="100"/></td>
+    </tr>
+    <tr align="center">
+      <td>Action button_2</td>
+      <td><img src="/img/ActionBtn3.png" width="500" height="100"/></td>
+      <td><img src="/img/ActionBtn4.gif" width="500" height="100"/></td>
+    </tr>
+  </tbody>
+</table>
 
   <br/>
 
