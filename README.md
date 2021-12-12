@@ -3,20 +3,14 @@
 ## Index
 
 > 1.  [Description](#Description)
-> 2.  [Stack](#Stack)
-> 3.  [Primary Function](#Primary-Function)
-> 4.  [Code Instruction](#Code-Instruction)
-> 5.  [Update List](#Update-List)
+> 2.  [Primary Function](#Primary-Function)
+> 3.  [Update List](#Update-List)
 
 <br/>
 
 ## Description
 
 > It is youtube clone coding for practicing basic html and css.
-
-<br/>
-
-## Stack
 
 <br/>
 
@@ -61,10 +55,6 @@
 </table>
 
   <br/>
-
-## Code Instruction
-
-<br/>
 
 ### Update List
 
