@@ -10,7 +10,7 @@
 
 ## Description
 
-> It is youtube clone coding for practicing basic html and css. Even though almost functions can't be activated, it has quite similar figure to Youtube website.
+> It is youtube clone coding for practicing basic html and css. Even though almost functions can't be activated, it has quite similar figure to Youtube website. please take a look at a next one and check out what kind of functions are in this website
 
 <br/>
 
